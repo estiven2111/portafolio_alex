@@ -1,0 +1,101 @@
+[
+  {
+    "text": "What does the acronym HTML stand for?",
+    "answers": [
+      { "text": "Hyper Text Markup Language", "isCorrect": true },
+      { "text": "High Technology Markup Language", "isCorrect": false },
+      { "text": "Home Text Markup Language", "isCorrect": false },
+      { "text": "Happy Text Markup Language", "isCorrect": false }
+    ]
+  },
+  {
+    "text": "Which programming language is the most used for building web applications?",
+    "answers": [
+      { "text": "Java", "isCorrect": false },
+      { "text": "Python", "isCorrect": false },
+      { "text": "JavaScript", "isCorrect": true },
+      { "text": "C++", "isCorrect": false }
+    ]
+  },
+  {
+    "text": "Which of the following is NOT a programming language?",
+    "answers": [
+      { "text": "CSS", "isCorrect": false },
+      { "text": "SQL", "isCorrect": false },
+      { "text": "HTML", "isCorrect": false },
+      { "text": "PNG", "isCorrect": true }
+    ]
+  },
+  {
+    "text": "Which of the following is used for styling web pages?",
+    "answers": [
+      { "text": "HTML", "isCorrect": false },
+      { "text": "CSS", "isCorrect": true },
+      { "text": "JavaScript", "isCorrect": false },
+      { "text": "PHP", "isCorrect": false }
+    ]
+  },
+  {
+    "text": "Which programming language was created by Guido van Rossum?",
+    "answers": [
+      { "text": "Java", "isCorrect": false },
+      { "text": "C++", "isCorrect": false },
+      { "text": "JavaScript", "isCorrect": false },
+      { "text": "Python", "isCorrect": true }
+    ]
+  },
+  {
+    "text": "Which programming language is often used for scientific computing and data analysis?",
+    "answers": [
+      { "text": "Java", "isCorrect": false },
+      { "text": "Python", "isCorrect": true },
+      { "text": "C#", "isCorrect": false },
+      { "text": "C++", "isCorrect": false }
+    ]
+  },
+  {
+    "text": "Which programming language is known for its use in creating video games?",
+    "answers": [
+      { "text": "JavaScript", "isCorrect": false },
+      { "text": "C++", "isCorrect": true },
+      { "text": "Java", "isCorrect": false },
+      { "text": "HTML", "isCorrect": false }
+    ]
+  },
+  {
+    "text": "Which of the following is NOT a type of programming paradigm?",
+    "answers": [
+      { "text": "Functional", "isCorrect": false },
+      { "text": "Object-Oriented", "isCorrect": false },
+      { "text": "Imperative", "isCorrect": false },
+      { "text": "Linear", "isCorrect": true }
+    ]
+  },
+  {
+    "text": "Which of the following is NOT a front-end web development framework?",
+    "answers": [
+      { "text": "Angular", "isCorrect": false },
+      { "text": "React", "isCorrect": false },
+      { "text": "Django", "isCorrect": true },
+      { "text": "Vue", "isCorrect": false }
+    ]
+  },
+  {
+    "text": "What is the purpose of JavaScript in web development?",
+    "answers": [
+      {
+        "text": "To add interactivity and dynamic behavior to a web page",
+        "isCorrect": true
+      },
+      {
+        "text": "To create the layout and design of a web page",
+        "isCorrect": false
+      },
+      {
+        "text": "To manage server-side requests and responses",
+        "isCorrect": false
+      },
+      { "text": "To perform database operations", "isCorrect": false }
+    ]
+  }
+]

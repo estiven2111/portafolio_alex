@@ -1,0 +1,57 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat+Subrayada:wght@400;700&family=Oswald:wght@400&family=Zeyada&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  @apply scroll-smooth;
+}
+body {
+  font-family: "Oswald";
+}
+
+.input {
+  @apply w-full px-5 border-2 outline-none dark:focus:border-fuchsia-600 focus:border-fuchsia-700 duration-300 dark:focus:text-white dark:bg-transparent border-black dark:border-neutral-300 bg-neutral-200 rounded-lg md:h-12 h-12 md:text-xl  dark:border-opacity-50 border-opacity-50;
+}
+
+.BackToTop {
+  @apply hidden bg-opacity-80  fixed bottom-20 right-10 z-50 bg-fuchsia-500 dark:text-white text-black text-2xl  rounded-full p-2 cursor-pointer transition ease-in-out duration-300;
+}
+
+.BackToTop.show {
+  @apply block;
+}
+
+.BackToTop:hover {
+  @apply scale-125;
+}
+
+@layer components {
+  .bg-frostBlack {
+    background-color: #191c20;
+  }
+  .sidebar-icon {
+    @apply relative flex items-center justify-center h-12 w-12 mt-2 mb-2 mx-2 shadow-lg text-gray-900 bg-white dark:bg-frostBlack text-4xl dark:text-fuchsia-500 hover:text-fuchsia-700 dark:hover:text-fuchsia-600
+    rounded-3xl hover:rounded-xl
+    transition-all duration-200 ease-linear
+    cursor-pointer;
+  }
+
+  .sidebar-tooltip {
+    @apply absolute w-auto p-2 m-2 min-w-max left-12
+    rounded-md shadow-md
+    text-white bg-gray-900
+    lg:text-2xl text-xl font-bold
+    transition-all duration-200 scale-0 origin-left;
+  }
+
+  .nav-dropdown {
+    @apply absolute w-auto
+  rounded-md shadow-md
+  transition-all duration-200 scale-0 origin-left;
+  }
+
+  .btn {
+    @apply bg-fuchsia-600 text-black shadow-lg hover:bg-fuchsia-700 shadow-neutral-800 dark:hover:text-fuchsia-600 dark:text-fuchsia-600  dark:bg-gray-900 dark:hover:bg-frostBlack py-2 px-4 rounded;
+  }
+}
