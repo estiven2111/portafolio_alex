@@ -4,13 +4,17 @@ import { SiLinkedin } from "react-icons/si";
 import { FaGithubSquare } from "react-icons/fa";
 
 import { useEffect, useState } from "react";
-import Loading from "../../components/Loading";
+import Loading from "../../components/loading/Loading";
 
 //------
 import Lottie from "lottie-react";
 import hero from "../../assets/lottie/services.json";
 import Services from "../../components/offerServices/Services";
 import FeatureProjects from "../../components/featWork/FeatureProjects";
+import profile from "../../assets/profile/profile.jpg"
+
+// --------Styles----
+import "./css/home.css"
 
 const Home: React.FC = ({}) => {
   const [loading, setLoading] = useState<boolean>(true);
@@ -40,7 +44,7 @@ const Home: React.FC = ({}) => {
                 <span>👋</span>
                 <br /> <span className="md:text-5xl text-2xl">SOY </span>
                 <span
-                  className="sm:text-6xl font-extrabold text-4xl text-fuchsia-600"
+                  className="sm:text-6xl font-extrabold text-4xl text-[#FF7600]"
                   style={{ fontFamily: "Oswald" }}
                 >
                   ALEXANDER MENESES
@@ -48,8 +52,8 @@ const Home: React.FC = ({}) => {
                 <span className="mb-4 ml-1 text-1lg sm:text-3xl font-semibold">
                     <br />
                 </span>
-                <span className="md:text-5xl text-3xl text-fuchsia-800 dark:text-fuchsia-300">
-                 Candidato al Concejo de Bello
+                <span className="md:text-5xl text-3xl text-black dark:text-white">
+                 <u>Candidato</u> al Concejo de Bello
                 </span>
               </h2>
             </div>
@@ -72,18 +76,18 @@ const Home: React.FC = ({}) => {
 
             <div className="flex flex-col items-center   gap-5 rounded  px-7 pt-2 sm:pt-4 pb-2 sm:pb-4 text-xs sm:text-lg font-medium transition duration-150 ease-in-out">
               <Link to="/contact">
-                <button className="btn lg:text-2xl text-xl">Hablemos</button>
+                <button className="btn lg:text-2xl text-white text-xl">Hablemos</button>
               </Link>
               <HashLink
                 to="#featured-work"
-                className="sm:py-2 sm:px-4 py-2 px-2 border-2 border-fuchsia-900 rounded-md sm:text-2xl text-xl shadow-lg hover:shadow-fuchsia-600  hover:border-fuchsia-600 dark:border-neutral-50"
+                className="sm:py-2 sm:px-4 py-2 px-2 border-2 border-[#ff7700d3] rounded-md sm:text-2xl text-xl shadow-lg hover:shadow-[#ff7700d3]  hover:border-[#ff7700d3] dark:border-neutral-50"
               >
                 propuestas
               </HashLink>
             </div>
           </div>
-          <div className="flex items-center">
-            <Lottie animationData={hero} loop={true} />
+          <div className="flex items-center container-img-home">
+            <img src={profile} alt="Profile" />
           </div>
         </div>
       </div>
