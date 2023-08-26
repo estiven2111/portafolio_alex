@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import MemoStack from "../../components/games/MemoStack";
 import Trivia from "../../components/games/Trivia";
 
-import Loading from "../../components/Loading";
+import Loading from "../../components/loading/Loading";
 
 const Games: React.FC = ({}) => {
   const [loading, setLoading] = useState<boolean>(true);

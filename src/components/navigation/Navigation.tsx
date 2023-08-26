@@ -70,44 +70,44 @@ const Navigation: React.FC<Props> = () => {
       >
         <div className="h-full py-20 px-3">
           <div
-            className="p-4 hover:text-fuchsia-600"
+            className="p-4 hover:text-[#FF7600]"
             onClick={() => setShowNavigation(false)}
           >
             <Link to="/">Home</Link>
           </div>
           <div
-            className="p-4 hover:text-fuchsia-600"
+            className="p-4 hover:text-[#FF7600]"
             onClick={() => setShowNavigation(false)}
           >
             <Link to="/bio">Bio</Link>
           </div>
           <div
-            className="p-4 hover:text-fuchsia-600"
+            className="p-4 hover:text-[#FF7600]"
             onClick={() => setShowNavigation(false)}
           >
             <Link to="/portfolio">Portfolio</Link>
           </div>
           <div
-            className="p-4 hover:text-fuchsia-600"
+            className="p-4 hover:text-[#FF7600]"
             onClick={() => setShowNavigation(false)}
           >
             <Link to="/games">Fun Stuff</Link>
           </div>
           <div
-            className="p-4 hover:text-fuchsia-600"
+            className="p-4 hover:text-[#FF7600]"
             onClick={() => setShowNavigation(false)}
           >
             <Link to="/contact">Contact me</Link>
           </div>
           <div className="flex content-center justify-center p-4">
             <button
-              className="sidebar-icon lg:text-2xl hover:text-fuchsia-700  text-3xl p-1 absolute top-0 left-0 mt-2 ml-4"
+              className="sidebar-icon lg:text-2xl hover:text-[#FF7600]  text-3xl p-1 absolute top-0 left-0 mt-2 ml-4"
               onClick={toggleHandler}
             >
               <IoCloseSharp />
             </button>
           </div>
-          <div className="containe">
+          <div className="container">
             <div className="row py-3">
               <div className="flex items-center gap-4 sm:pb-3 justify-center">
                 <a

@@ -9,7 +9,7 @@ const Toggle: React.FC = () => {
   return (
     <div className="flex items-center  ">
       <button
-        className=" sidebar-icon lg:text-2xl text-2xl text-gray-900 dark:text-fuchsia-500 dark:hover:text-fuchsia-600 hover:text-fuchsia-600"
+        className=" sidebar-icon lg:text-2xl text-2xl text-gray-900 dark:text-[#ff7700d3] dark:hover:text-[#ff7700d3] hover:text-[#ff7700d3]"
         onClick={themeChangeHandler}
       >
         {theme === "dark" ? <FaSun /> : <FaMoon />}

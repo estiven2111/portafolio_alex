@@ -13,7 +13,6 @@ import Games from "./pages/games/Games";
 import Contact from "./pages/contact/Contact";
 import CalltoAction from "./components/CalltoAction";
 import ScrollToTop from "./components/ScrollToTop";
-import Loading from "./components/Loading";
 
 function App() {
   return (
