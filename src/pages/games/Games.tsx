@@ -25,9 +25,9 @@ const Games: React.FC = ({}) => {
       <div className=" flex items-center h-screen justify-center">
         <MemoStack />
       </div>
-      <div className=" flex items-center h-screen justify-center">
+      {/* <div className=" flex items-center h-screen justify-center">
         <Trivia />
-      </div>
+      </div> */}
     </div>
   );
 };

@@ -5,6 +5,32 @@ const Certificates: React.FC<{}> = () => {
   return (
     <div className="my-20">
       <div className="mb-20 text-center">
+        <h1 className="font-bold text-4xl md:text-5xl">Estudio, trabajo y Pasión</h1>
+      </div>
+      <div className="grid sm:grid-cols-1 gap-6  ">
+        {certificates.map((el) => (
+          <div className="py-5 p-9 rounded-lg hover:shadow-yellow-600 dark:hover:shadow-yellow-600 dark:shadow-neutral-50 shadow-md   hover:scale-105 ">
+           <div className=" text-center text-xl">
+              <div>
+                <h1 className=" text-center "><strong>{el.title}</strong></h1>
+              </div>
+            </div>
+            <br />
+            <div>
+              <div>
+                <h1 className=" text-left ">{el.certLink}</h1>
+              </div>
+            </div>
+          </div>
+        ))}
+      </div>
+    </div>
+  );
+};
+
+{
+  /* <div className="my-20">
+      <div className="mb-20 text-center">
         <h1 className="font-bold text-4xl md:text-5xl">Certifications</h1>
       </div>
       <div className="grid sm:grid-cols-2 gap-6  ">
@@ -23,8 +49,7 @@ const Certificates: React.FC<{}> = () => {
           </div>
         ))}
       </div>
-    </div>
-  );
-};
+    </div> */
+}
 
 export default Certificates;

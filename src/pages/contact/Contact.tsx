@@ -9,7 +9,8 @@ import resumeSpanish from "../../assets/downloadable/Resume Yeraldinne Sanabria 
 
 import { SiLinkedin, SiFreelancer } from "react-icons/si";
 import { AiOutlineMail } from "react-icons/ai";
-import { FaGithubSquare } from "react-icons/fa";
+import { SiInstagram } from "react-icons/si";
+import { FaFacebook } from "react-icons/fa";
 import { BsCalendar3, BsWhatsapp } from "react-icons/bs";
 import { MdOutlineEventAvailable } from "react-icons/md";
 import { ImProfile } from "react-icons/im";
@@ -27,22 +28,22 @@ const Contact: React.FC = ({}) => {
     <div className="sm:mx-20 mx-8  ">
       <div className="grid sm:grid-cols-2  ">
         <div className="w-full grid grid-row  my-10  justify-center md:order-first order-last">
-          <div className="flex items-center mt-10 pb-4 md:pb-1 gap-20 justify-center">
-            <a
-              className="hover:scale-110"
-              target="_blank"
-              href="https://www.linkedin.com/in/yeraldinne-sanabria/"
-            >
-              <SiLinkedin className="text-3xl" />
-            </a>
-            <a
-              target="_blank"
-              href="https://github.com/Yeraldinnesan"
-              className="hover:scale-110"
-            >
-              <FaGithubSquare className="text-4xl" />
-            </a>
-          </div>
+        <div className="flex items-center gap-4 sm:pb-3 p justify-center">
+              <a
+                className="hover:scale-110"
+                target="_blank"
+                href="https://www.instagram.com/almescare/"
+              >
+                <SiInstagram className="text-3xl" />
+              </a>
+              <a
+                target="_blank"
+                href="https://www.facebook.com/alexander.meneses1"
+                className="hover:scale-110"
+              >
+                <FaFacebook className="text-4xl" />
+              </a>
+            </div>
           <div>
             <div className="justify-center">
               <div className="relative">
@@ -50,7 +51,7 @@ const Contact: React.FC = ({}) => {
                   {/* <div className="absolute top-0 right-0 bottom-auto left-auto z-10 inline-block translate-x-2/4 -translate-y-1/2 rotate-0 skew-x-0 skew-y-0 scale-x-100 scale-y-100 whitespace-nowrap rounded-full bg-fuchsia-700   py-1 px-1.5 text-center align-baseline text-xs font-bold leading-none text-white">
                   {resumeCounter}
                 </div> */}
-                  <button
+                  {/* <button
                     className=" bg-neutral-200 hover:bg-neutral-300 dark:text-white dark:bg-neutral-900  rounded w-full lg:text-2xl text-xl flex items-center justify-between btn px-5 py-2  font-medium  leading-normal shadow-neutral-600 shadow-sm transition duration-150 ease-in-out    focus:outline-none focus:ring-0"
                     type="button"
                     id="dropdownMenuDownload"
@@ -64,8 +65,8 @@ const Contact: React.FC = ({}) => {
                     <span>
                       {isOpen ? <MdKeyboardArrowUp /> : <MdKeyboardArrowDown />}
                     </span>
-                  </button>
-                  <ul
+                  </button> */}
+                  {/* <ul
                     className={`absolute z-[1000] w-full float-left m-0 ${
                       isOpen ? "block" : "hidden"
                     } min-w-max list-none overflow-hidden rounded-lg border-none bg-clip-padding text-left text-base shadow-lg dark:bg-neutral-700`}
@@ -91,38 +92,38 @@ const Contact: React.FC = ({}) => {
                         Español
                       </a>
                     </li>
-                  </ul>
+                  </ul> */}
                 </div>
               </div>
             </div>
           </div>
           <div className="flex gap-5 mt-10   md:gap-10 align-center  ">
             <AiOutlineMail className="md:text-5xl text-4xl" />{" "}
-            <span className=" text-xl md:mt-2">yeraldinnedev@gmail.com</span>
+            <span className=" text-xl md:mt-2">almes052@gmail.com</span>
           </div>
           <div className="flex gap-5 my-10   md:gap-10 align-center  ">
             <BsCalendar3 className="md:text-5xl text-3xl" />{" "}
             <a
               target="_blank"
-              href="https://calendly.com/yeraldinne"
+              href="https://calendly.com/almes052"
               className=" text-xl md:mt-2"
             >
-              calendly.com/yeraldinne
+              Agendemos una cita
             </a>
           </div>
           <div className="flex gap-5  md:gap-10 align-center    ">
             <SiFreelancer className="md:text-5xl mt-2 text-4xl" />{" "}
             <div className="felx flex-col">
-              <h1 className=" md:mb-1 text-xl text-bold">Freelance</h1>
+              <h1 className=" md:mb-1 text-xl text-bold">Concejal Bello</h1>
               <p className="text-neutral-500 text-bold">
-                available immediately
+                POR UN BELLO NUEVO Y RENOVADO
               </p>
             </div>
           </div>
         </div>
         <div className=" md:mx-5 mt-6  md:my-12">
           <div className="font-bold md:text-5xl text-3xl text-center ">
-            <h1>Get In Touch!</h1>
+            <h1>Contactame</h1>
           </div>
           <ContactForm />
         </div>

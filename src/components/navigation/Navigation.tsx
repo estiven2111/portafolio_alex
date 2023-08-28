@@ -44,21 +44,21 @@ const Navigation: React.FC<Props> = () => {
         {/*navigation links on large screens */}
         <div className="hidden sm:flex sm:flex-col lg:text-2xl text-xl">
           <Link to="/">
-            <SideBarIcon icon={<BsHouseDoorFill size={29} />} text={"Home"} />
+            <SideBarIcon icon={<BsHouseDoorFill size={29} />} text={"Quien es alexander"} />
           </Link>
           <Link to="/bio">
-            <SideBarIcon icon={<ImProfile size={29} />} text={"Bio"} />
+            <SideBarIcon icon={<ImProfile size={29} />} text={"Biografia"} />
           </Link>
-          <Link to="/portfolio">
+          {/* <Link to="/portfolio">
             <SideBarIcon icon={<MdWork size={29} />} text={"Portfolio"} />
-          </Link>
+          </Link> */}
           <Link to="/games">
-            <SideBarIcon icon={<GiGamepad />} text={"Fun Stuff"} />
+            <SideBarIcon icon={<GiGamepad />} text={"Aprende jugando"} />
           </Link>
           <Link to="/contact">
             <SideBarIcon
               icon={<MdContactPhone size={29} />}
-              text={"Contact me"}
+              text={"Contactame"}
             />
           </Link>
         </div>
@@ -73,116 +73,31 @@ const Navigation: React.FC<Props> = () => {
             className="p-4 hover:text-[#FF7600]"
             onClick={() => setShowNavigation(false)}
           >
-            <Link to="/">Home</Link>
+            <Link to="/">Quien es alexander</Link>
           </div>
           <div
             className="p-4 hover:text-[#FF7600]"
             onClick={() => setShowNavigation(false)}
           >
-            <Link to="/bio">Bio</Link>
+            <Link to="/bio">Biografia</Link>
           </div>
-          <div
+          {/* <div
             className="p-4 hover:text-[#FF7600]"
             onClick={() => setShowNavigation(false)}
           >
             <Link to="/portfolio">Portfolio</Link>
+          </div> */}
+          <div
+            className="p-4 hover:text-[#FF7600]"
+            onClick={() => setShowNavigation(false)}
+          >
+            <Link to="/games">Aprende Jugando</Link>
           </div>
           <div
             className="p-4 hover:text-[#FF7600]"
             onClick={() => setShowNavigation(false)}
           >
-            <Link to="/games">Fun Stuff</Link>
-          </div>
-          <div
-            className="p-4 hover:text-[#FF7600]"
-            onClick={() => setShowNavigation(false)}
-          >
-            <Link to="/contact">Contact me</Link>
-          </div>
-          <div className="flex content-center justify-center p-4">
-            <button
-              className="sidebar-icon lg:text-2xl hover:text-[#FF7600]  text-3xl p-1 absolute top-0 left-0 mt-2 ml-4"
-              onClick={toggleHandler}
-            >
-              <IoCloseSharp />
-            </button>
-          </div>
-          <div className="container">
-            <div className="row py-3">
-              <div className="flex items-center gap-4 sm:pb-3 justify-center">
-                <a
-                  className="hover:scale-110"
-                  target="_blank"
-                  href="https://www.linkedin.com/in/yeraldinne-sanabria/"
-                >
-                  <SiLinkedin className="text-3xl" />
-                </a>
-                <a
-                  target="_blank"
-                  href="https://github.com/Yeraldinnesan"
-                  className="hover:scale-110"
-                >
-                  <FaGithubSquare className="text-4xl" />
-                </a>
-              </div>
-            </div>
-            <div className="row">
-              <div className="flex justify-center">
-                <div className="relative">
-                  <div className="relative" data-te-dropdown-ref>
-                    {/* <div className="absolute top-0 right-0 bottom-auto left-auto z-10 inline-block translate-x-2/4 -translate-y-1/2 rotate-0 skew-x-0 skew-y-0 scale-x-100 scale-y-100 whitespace-nowrap rounded-full bg-fuchsia-700   py-1 px-1.5 text-center align-baseline text-xs font-bold leading-none text-white">
-                  {resumeCounter}
-                </div> */}
-                    <button
-                      className="bg-neutral-200 gap-2 hover:bg-neutral-300 dark:text-white dark:bg-neutral-900  rounded w-full lg:text-2xl text-xl flex items-center justify-between btn px-5 py-2  font-medium  leading-normal shadow-neutral-600 shadow-sm transition duration-150 ease-in-out    focus:outline-none focus:ring-0"
-                      type="button"
-                      id="dropdownMenuDownload"
-                      data-te-dropdown-toggle-ref
-                      aria-expanded={isOpen}
-                      data-te-ripple-init
-                      data-te-ripple-color="light"
-                      onClick={handleToggle}
-                    >
-                      <HiFolderArrowDown size={27} /> Resume
-                      <span className="ml-2 w-2">
-                        {isOpen ? (
-                          <MdKeyboardArrowUp />
-                        ) : (
-                          <MdKeyboardArrowDown />
-                        )}
-                      </span>
-                    </button>
-                    <ul
-                      className={`absolute z-[1000] w-full float-left m-0 ${
-                        isOpen ? "block" : "hidden"
-                      } min-w-max list-none overflow-hidden rounded-lg border-none bg-clip-padding text-left text-base shadow-lg dark:bg-neutral-700`}
-                      aria-labelledby="dropdownMenuDownload"
-                      data-te-dropdown-menu-ref
-                    >
-                      <li>
-                        <a
-                          className="block w-full whitespace-nowrap  py-2 px-4 text-sm dark:bg-neutral-500 text-neutral-700 hover:bg-neutral-300 active:no-underline disabled:pointer-events-none disabled:bg-transparent disabled:text-neutral-400 dark:text-neutral-200  dark:hover:bg-neutral-600 bg-neutral-100"
-                          data-te-dropdown-item-ref
-                          href={resumeEnglish}
-                          download={resumeEnglish}
-                        >
-                          English
-                        </a>
-                        <hr className="  h-px border-t-0  bg-gradient-to-r from-transparent via-neutral-500 to-transparent opacity-25 dark:opacity-100" />
-                        <a
-                          className="block w-full whitespace-nowrap  py-2 px-4 text-sm text-neutral-700 dark:bg-neutral-500 hover:bg-neutral-300 active:no-underline disabled:pointer-events-none disabled:bg-transparent disabled:text-neutral-400 dark:text-neutral-200  dark:hover:bg-neutral-600 bg-neutral-100"
-                          data-te-dropdown-item-ref
-                          href={resumeSpanish}
-                          download={resumeSpanish}
-                        >
-                          Español
-                        </a>
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-            </div>
+            <Link to="/contact">Contactame</Link>
           </div>
         </div>
       </div>

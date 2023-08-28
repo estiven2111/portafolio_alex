@@ -8,7 +8,7 @@ const Services: React.FC = () => {
       <section>
         <div className=" ">
           <div className=" text-center py-45">
-            <h1 className="  font-bold  text-4xl md:text-5xl">Services</h1>
+            <h1 className="  font-bold  text-4xl md:text-5xl">Mis compromisos con los Bellanitas</h1>
           </div>
           <Accordion />
         </div>

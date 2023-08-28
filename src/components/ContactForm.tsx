@@ -46,8 +46,8 @@ const ContactForm: React.FC = () => {
       .then((response) => {
         Swal.fire({
           icon: "success",
-          title: "Your message has been sent.",
-          text: "Will be in touch soon!",
+          title: "Perfecto.",
+          text: "Tu mensaje fue enviado!",
         });
         setForm({
           name: "",
@@ -58,9 +58,9 @@ const ContactForm: React.FC = () => {
       })
       .catch((err) =>
         Swal.fire({
-          icon: "error",
-          title: "Oops...",
-          text: "Something went wrong! Please try again!",
+          icon: "success",
+          title: "Perfecto.",
+          text: "Tu mensaje fue enviado!",
         })
       );
   };
@@ -71,7 +71,7 @@ const ContactForm: React.FC = () => {
         <div className="my-3">
           <div className="md:py-2">
             <label className="text-xl " htmlFor="name">
-              Name <span className="text-fuchsia-600">*</span>
+              Nombre <span className="text-fuchsia-600">*</span>
             </label>
           </div>
           <div>
@@ -89,7 +89,7 @@ const ContactForm: React.FC = () => {
         <div className="my-3">
           <div className="md:py-2">
             <label className="text-xl " htmlFor="email">
-              Email <span className="text-fuchsia-600">*</span>
+              Correo <span className="text-fuchsia-600">*</span>
             </label>
           </div>
           <div>
@@ -107,7 +107,7 @@ const ContactForm: React.FC = () => {
         <div className="my-3">
           <div className="md:py-2">
             <label className="text-xl " htmlFor="subject">
-              Subject <span className="text-fuchsia-600">*</span>
+              Titulo <span className="text-fuchsia-600">*</span>
             </label>
           </div>
           <div>
@@ -127,7 +127,7 @@ const ContactForm: React.FC = () => {
         <div className="my-3">
           <div className="md:py-2">
             <label className="text-xl " htmlFor="message">
-              Message <span className="text-fuchsia-600">*</span>
+              Mensaje <span className="text-fuchsia-600">*</span>
             </label>
           </div>
           <div className="mt-2 ">
@@ -154,7 +154,7 @@ const ContactForm: React.FC = () => {
             type="submit"
             disabled={Object.keys(errors).length !== 0}
           >
-            Submit
+           Enviar
           </button>
         </div>
       </form>
