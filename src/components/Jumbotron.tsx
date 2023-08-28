@@ -26,14 +26,15 @@ const Jumbotron: React.FC = () => {
     <div className="relative  sm:h-[200px] md:h-[250px] lg:h-[200px] xl:h-[350px] h-full">
       <div
         className="bg-neutral-100 p-12 sm:first-letter text-center text-black dark:bg-neutral-700 dark:text-black bg-cover bg-center"
-        style={{ backgroundImage: `url(${jumbotron2})` }}
+        // style={{ backgroundImage: `url(${jumbotron2})` }}
       >
-        <h1 className="text-4xl  lg:text-5xl xl:text-7xl font-bold mb-4">
+       
+        {/* <h1 className="text-4xl  lg:text-5xl xl:text-7xl font-bold mb-4">
           Yeraldinne Sanabria
-        </h1>
-        <h4 className="mb-6 text-xl font-semibold">Full-Stack Developer</h4>
+        </h1> */}
+        {/* <h4 className="mb-6 text-xl font-semibold">Full-Stack Developer</h4> */}
         <div className="flex flex-col sm:flex-row items-center md:text-xs gap-4 justify-center content-center">
-          <Link to="/contact">
+          {/* <Link to="/contact">
             <button
               type="button"
               data-te-ripple-init
@@ -42,7 +43,7 @@ const Jumbotron: React.FC = () => {
             >
               Let's talk <HiOutlineArrowLongRight />
             </button>
-          </Link>
+          </Link> */}
 
           <div className="flex justify-center">
             <div className="relative">
@@ -50,7 +51,7 @@ const Jumbotron: React.FC = () => {
                 {/* <div className="absolute top-0 right-0 bottom-auto left-auto z-10 inline-block translate-x-2/4 -translate-y-1/2 rotate-0 skew-x-0 skew-y-0 scale-x-100 scale-y-100 whitespace-nowrap rounded-full bg-fuchsia-700   py-1 px-1.5 text-center align-baseline text-xs font-bold leading-none text-white">
                   {resumeCounter}
                 </div> */}
-                <button
+                {/* <button
                   className="btn rounded lg:text-2xl text-xl flex items-center gap-2 justify-center content-center btn px-5 py-2  font-medium  leading-normal shadow-fuchsia-600 shadow-sm transition duration-150 ease-in-out    focus:outline-none focus:ring-0"
                   type="button"
                   id="dropdownMenuDownload"
@@ -64,8 +65,8 @@ const Jumbotron: React.FC = () => {
                   <span className="ml-2 w-2">
                     {isOpen ? <MdKeyboardArrowUp /> : <MdKeyboardArrowDown />}
                   </span>
-                </button>
-                <ul
+                </button> */}
+                {/* <ul
                   className={`absolute z-[1000] w-full float-left m-0 ${
                     isOpen ? "block" : "hidden"
                   } min-w-max list-none overflow-hidden rounded-lg border-none bg-clip-padding text-left text-base shadow-lg dark:bg-neutral-700`}
@@ -91,7 +92,7 @@ const Jumbotron: React.FC = () => {
                       Español
                     </a>
                   </li>
-                </ul>
+                </ul> */}
               </div>
             </div>
           </div>

@@ -4,6 +4,7 @@ import Lottie from "lottie-react";
 import animation from "../../assets/lottie/home.json";
 import AcordionItem from "./AcordionItem.js";
 import { useState } from "react";
+import Loading from "../../assets/loading/logoNFD.png"
 
 const Accordion: React.FC<{}> = () => {
   const [open, setOpen] = useState<boolean[]>(servicesData.map(() => false));
@@ -26,8 +27,9 @@ const Accordion: React.FC<{}> = () => {
   return (
     <div className="flex  justify-center w-full py-10">
       <div className="flex flex-col lg:flex-row gap-10 items-center content-center my-3 py-3 rounded-lg  ">
-        <div>
-          <Lottie animationData={animation} loop={true} />
+        <div className=" w-6/12 ">
+          {/* <Lottie animationData={animation} loop={true} /> */}
+         <img src={Loading} alt="" />
         </div>
 
         <div>

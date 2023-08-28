@@ -66,6 +66,7 @@ import {
   html,
   sass,
   mercadopago,
+  figma,
 } from "../assets/index";
 import { FaRegWindowMaximize } from "react-icons/fa";
 
@@ -201,102 +202,119 @@ const portfolioData = [
 
 const certificates = [
   {
-    title: "Full-Stack Developer",
+    title: "Estudios",
     certLink:
-      "https://certificates.soyhenry.com/new-cert?id=e00e612ab1f12ac4bbb2ec66900ca8d9686d66bd47d614ee88333e733c0f2fb1",
+      `Mi recorrido educativo abarca importantes hitos que reflejan mi compromiso con el aprendizaje y el crecimiento personal. En 1997, culminé mi educación secundaria obteniendo el título de Bachiller en el prestigioso Colegio Carmelitano. Este logro marcó el inicio de mi búsqueda de conocimiento y preparación.
+
+      En el año 2004, graduarme como Técnico Profesional en Enfermería en el Politécnico Marco Fidel Suárez no solo consolidó mi pasión por la atención médica, sino también reafirmó mi compromiso con el bienestar de los demás. Esta etapa de formación fue un pilar fundamental en mi camino profesional.
+      
+      Mi deseo constante de adquirir nuevas habilidades me llevó a obtener el título de Tecnólogo en Seguridad y Salud en el Trabajo del SENA en 2018. Esta formación amplió mi perspectiva hacia la protección y el bienestar en distintos contextos, consolidando mi compromiso con la seguridad en el ámbito laboral.
+      
+      Cada uno de estos logros representa mi dedicación y esfuerzo por crecer en el conocimiento y la práctica en campos que considero esenciales. A través de mi recorrido educativo, he construido una base sólida para contribuir de manera significativa a mi comunidad y al bienestar general.
+      `,
   },
   {
-    title: "EF SET English Certificate",
-    certLink: "https://www.efset.org/cert/dP8652",
+    title: "Trabajo",
+    certLink: `Desde mi graduación como Técnico Profesional en Enfermería, mi trayectoria laboral ha sido una travesía en la que he tenido el privilegio de trabajar en diversos hospitales y clínicas de renombre. Cada experiencia en estos entornos de atención médica ha sido una oportunidad invaluable para expandir mis conocimientos y habilidades. Mi recorrido me ha brindado una perspectiva enriquecedora sobre la práctica de la enfermería en diferentes contextos.
+
+    A lo largo de los años, he contribuido en hospitales y clínicas reconocidas, lo que me ha permitido desarrollar una base sólida en la atención a pacientes en diversas condiciones. Esta diversidad de entornos me ha desafiado y me ha capacitado para adaptarme a las necesidades cambiantes de los pacientes y los equipos médicos. Cada lugar en el que he trabajado ha sumado un capítulo a mi historia profesional, fortaleciendo mi compromiso con el cuidado de la salud y reafirmando mi pasión por la enfermería. Estoy emocionado por seguir creciendo en esta apasionante carrera y aportar mi experiencia en beneficio de la atención médica y de aquellos a quienes servimos.
+    `,
   },
   {
-    title: "JavaScript Framework Angular",
+    title: "Servicio a la iglesia católica ",
     certLink:
-      "https://www.coursera.org/account/accomplishments/certificate/95VPWWYLBFPG",
+      `Desde temprana edad, mi vínculo con la Iglesia Católica fue innegable y profundo. En 1992, esta conexión me llevó a unirse al grupo de acólitos en la Parroquia del Rosario, un punto de partida en mi camino espiritual. A lo largo del tiempo, cultivé valores y amor por la iglesia, lo que me impulsó a unirme al grupo juvenil y, posteriormente, al grupo de catequistas, donde tuve la oportunidad de compartir mi fe con otros.
+
+      Mi compromiso continuó creciendo, y encontré mi lugar en el grupo de logística, una comunidad dedicada a trabajar en diversas actividades y celebraciones parroquiales, como la Semana Santa, las fiestas patronales y la Navidad. A través de esta labor, contribuí en la creación de elementos como el monumento y el pesebre, entre otros, para enriquecer estas ocasiones significativas. Este compromiso y pasión por la Iglesia persisten, y ahora, desde la Parroquia Nuestra Señora de Chiquinquirá, sigo con la misma entrega y cariño por nuestra fe.
+      
+      Mi historia en la Iglesia es un reflejo de mi profundo amor y devoción, una travesía marcada por la participación activa y el deseo de contribuir al fortalecimiento de nuestra comunidad religiosa.
+      `,
   },
-  {
-    title: "Foundations of UX Design",
-    certLink:
-      "https://www.coursera.org/account/accomplishments/certificate/FDMMNJKSMBXV",
-  },
+  // {
+  //   title: "Foundations of UX Design",
+  //   certLink:
+  //     "https://www.coursera.org/account/accomplishments/certificate/FDMMNJKSMBXV",
+  // },
 ];
 
 const servicesData = [
   {
-    title: "🌟 Recuperación de instalaciones del polideportivo",
+    title: "🌟 1- Recuperación de instalaciones del polideportivo",
 
-    description:
-      `Como candidato al Concejo Municipal de Bello, uno de mis objetivos es revitalizar nuestro querido polideportivo y restaurar el orgullo de nuestra comunidad. Es inaceptable que nuestras instalaciones deportivas se encuentren en un estado de abandono, como se evidencia en los baños públicos descuidados, deteriorados y en condiciones insalubridad. Trabajaré incansablemente para obtener los recursos necesarios a nivel municipal, departamental y nacional, en colaboración con nuestra Diputada, para llevar a cabo una renovación completa que transforme el polideportivo en un vibrante centro comunitario. Al revitalizar este espacio, no solo generaremos empleo para los Bellanitas, sino que también atraeremos eventos significativos que impulsarán nuestra economía y fortalecerán nuestro tejido social.
+    description: `Como candidato al Concejo Municipal de Bello, uno de mis objetivos es revitalizar
+     nuestro querido polideportivo y restaurar el orgullo de nuestra comunidad. Es inaceptable que nuestras instalaciones deportivas se encuentren en un estado de abandono, como se evidencia en los baños públicos descuidados, deteriorados y en condiciones insalubridad. Trabajaré incansablemente para obtener los recursos necesarios a nivel municipal, departamental y nacional, para llevar a cabo una renovación completa que transforme el polideportivo en un vibrante centro comunitario. Al revitalizar este espacio, no solo generaremos empleo para los Bellanitas, sino que también atraeremos eventos significativos que impulsarán nuestra economía y fortalecerán nuestro tejido social.
 
       Mi visión es convertir nuestro polideportivo en un símbolo de unidad y prosperidad para Bellanitas. A través del deporte, la recreación y la participación comunitaria, podemos construir un futuro donde el orgullo y la vitalidad vuelvan a definir nuestra identidad local. Les invito a unirse a esta causa, a creer en la posibilidad del cambio y a confiar en mi compromiso de trabajar incansablemente por el bienestar de todos los ciudadanos de Bellanitas.
       `,
-      
   },
   {
-    title: "🌟 Back-end Development",
+    title: "🌟 2- Generación de empleo",
 
     description:
-      "Scalable and secure back-end systems using languages like Python, Ruby, or Node.js. Designing efficient APIs and integrating them with databases and front-end applications.",
+      `La implementación de un programa de reciclaje en los barrios constituye una iniciativa de gran relevancia que promueve tanto la sostenibilidad ambiental como el empoderamiento de la comunidad. La colaboración entre los jóvenes de cada comuna, barrio o cuadra para llevar a cabo este programa no solo fomentará la conciencia ecológica, sino también valores esenciales como la responsabilidad, el trabajo en equipo y el emprendimiento. La administración, en su rol de veedora y garante, desempeñaría un papel crucial al brindar su apoyo y supervisión, asegurando que el programa se desarrolle de manera eficiente y en línea con los intereses y necesidades de la comunidad.
+      El acompañamiento constante de la administración, a través de capacitaciones y formación en el tema de reciclaje, añade un elemento de desarrollo personal y educativo. Esto no solo fortalecería las habilidades de los jóvenes involucrados en el programa, sino que también podría abrir oportunidades para futuros emprendimientos y empleos relacionados con la gestión sostenible de recursos. En última instancia, este programa no solo contribuiría a la mejora del entorno, sino que también sentaría las bases para una comunidad más consciente y activa en la construcción de un futuro más sostenible y próspero.
+      `,
   },
   {
-    title: "🌟 Database Management",
+    title: "🌟 3- Adulto mayor",
 
     description:
-      "Design, implementation, and management of databases using various technologies such as SQL, MongoDB, or Firebase. Creating data models, optimizing queries, and ensuring data consistency and security.",
+      `Implementar un programa mensual de chequeos de salud para los grupos de adultos mayores, que incluya mediciones de presión arterial y pruebas de dextrometría, entre otros, sería una iniciativa beneficiosa para el bienestar y la atención médica de este segmento de la población. Estas revisiones regulares podrían ayudar a detectar posibles problemas de salud de manera temprana y permitir que se tomen medidas preventivas o de atención adecuadas. Además, estas actividades contribuirían a la promoción de la salud y al cuidado integral de los adultos mayores, mejorando su calidad de vida en la comunidad.`,
   },
   {
-    title: "🌟 API Development",
+    title: "🌟 4- Salud",
 
     description:
-      "APIs that provide data to other applications or connect multiple systems. Implementing RESTful or GraphQL APIs, documenting them, and handling authentication and authorization.",
+      `Gestionar ante las instancias de la asamblea, la gobernación y el gobierno nacional una intervención en el Hospital Municipal Rosalpi es una medida esencial para elevar su nivel de atención médica. A través de esta gestión, se busca la adecuación de sus instalaciones, la provisión de equipos especializados y la asignación de personal altamente calificado. Este esfuerzo tiene como objetivo transformar el hospital en una institución de al menos segundo, e incluso tercer nivel de atención, lo que permitiría brindar servicios médicos más completos y de mayor calidad a la comunidad. Con esta intervención, se busca optimizar la infraestructura y el equipamiento, así como garantizar la capacitación del personal, con el propósito de elevar los estándares de atención médica y responder de manera más eficiente a las necesidades de salud de la población local.`,
   },
-  {
-    title: "🌟 E-commerce development",
+  // {
+  //   title: "🌟 E-commerce development",
 
-    description:
-      " Build and manage online stores that help businesses sell their products and services online, from setting up a store to optimizing it for maximum sales.",
-  },
-  {
-    title: "🌟 SEO optimization",
+  //   description:
+  //     " Build and manage online stores that help businesses sell their products and services online, from setting up a store to optimizing it for maximum sales.",
+  // },
+  // {
+  //   title: "🌟 SEO optimization",
 
-    description:
-      " Improve a website's visibility and search engine ranking through keyword research, on-page optimization, and backlink building.",
-  },
-  {
-    title: "🌟 Branding",
+  //   description:
+  //     " Improve a website's visibility and search engine ranking through keyword research, on-page optimization, and backlink building.",
+  // },
+  // {
+  //   title: "🌟 Branding",
 
-    description:
-      " Develop a brand identity that represents a business's values, personality, and goals, helping them stand out in a crowded marketplace.",
-  },
-  {
-    title: "🌟 Social media management",
+  //   description:
+  //     " Develop a brand identity that represents a business's values, personality, and goals, helping them stand out in a crowded marketplace.",
+  // },
+  // {
+  //   title: "🌟 Social media management",
 
-    description:
-      "help businesses manage their social media presence by creating engaging content, optimizing posts for maximum reach, and analyzing results to improve performance.",
-  },
-  {
-    title: "🌟 Web design",
+  //   description:
+  //     "help businesses manage their social media presence by creating engaging content, optimizing posts for maximum reach, and analyzing results to improve performance.",
+  // },
+  // {
+  //   title: "🌟 Web design",
 
-    description:
-      "Create beautiful, user-friendly websites that help businesses and individuals showcase their products and services online.",
-  },
+  //   description:
+  //     "Create beautiful, user-friendly websites that help businesses and individuals showcase their products and services online.",
+  // },
 ];
 
 const memoStack = [
-  "https://icongr.am/devicon/mongodb-original-wordmark.svg?size=50&color=currentColor",
-  "https://icongr.am/devicon/typescript-plain.svg?size=50&color=currentColor",
-  "https://icongr.am/devicon/react-original.svg?size=50&color=currentColor",
-  "https://icongr.am/devicon/python-original.svg?size=50&color=currentColor",
-  "https://icongr.am/devicon/postgresql-original.svg?size=50&color=currentColor",
-  "https://icongr.am/devicon/nodejs-original.svg?size=50&color=currentColor",
-  "https://icongr.am/devicon/javascript-original.svg?size=50&color=currentColor",
-  "https://icongr.am/devicon/html5-original.svg?size=50&color=currentColor",
-  "https://icongr.am/devicon/git-original.svg?size=50&color=currentColor",
-  "https://icongr.am/devicon/angularjs-original.svg?size=50&color=currentColor",
-  "https://icongr.am/devicon/css3-original.svg?size=50&color=currentColor",
-  "https://icongr.am/devicon/express-original-wordmark.svg?size=50&color=003d23",
-  "https://icongr.am/devicon/django-original.svg?size=50&color=currentColor",
-  "https://icongr.am/devicon/sequelize-original.svg?size=50&color=currentColor",
+angular,
+  next,
+  figma,
+  apollo,
+  redis,
+  css,
+  django2,
+  auth0,
+  django,
+  express,
+  graphql,
+  mongo,
+  postgre,
+  python,
+ 
 ]
   .flatMap((el) => [`a|${el}`, `b|${el}`])
   .sort(() => Math.random() - 0.5);
