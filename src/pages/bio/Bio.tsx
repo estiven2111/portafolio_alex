@@ -15,25 +15,32 @@ import { Link } from "react-router-dom";
 import MarqueeScroller from "../../components/MarqueeScroller";
 import Certificates from "../../components/cetificateSection/Certificates";
 import BackToTop from "../../components/BackToTop";
-import jumbotron2 from "../../assets/images/jumbotron2.jpg"
+import jumbotron2 from "../../assets/images/jumbotron2.jpg";
+import { SiInstagram } from "react-icons/si";
+import { FaFacebook } from "react-icons/fa";
 const Bio: React.FC = ({}) => {
   return (
     <div>
       {/* <Jumbotron /> */}
-     
+
       <section className="min-h-screen items-center justify-center">
-      <div className="py-5 p-12 items-center justify-center">
- <img style={{width:"100%", height :"400px"}} className="py-5 rounded-full" src={jumbotron2} alt="" />
-      </div>
-      <br />
+        <div className="py-5 p-12 items-center justify-center rounded-3xl ">
+          <img
+            style={{ width: "100%", height: "400px" }}
+            className="py-5  rounded-3xl  shadow-lg bg-transparent shadow-orange-600 dark:shadow-white"
+            src={jumbotron2}
+            alt=""
+          />
+        </div>
+        <br />
         <div className=" sm:mx-20  mx-8  grid gap-8 sm:text-sm  sm:grid-cols-2">
           <div className="md:flex-1 ">
             <p className="mb-2 sm:text-2xl text-xl text-justify">
-              Soy un orgulloso <strong>"Bellanita"</strong>, nacido y criado entre los
-              entrañables barrios Suárez y La Cumbre. Mi vocación como auxiliar
-              de enfermería ha sido mi dedicación principal, extendiendo
-              cuidados y alivio a lo largo de los años. A la par de esta
-              vocación, también me he forjado como tecnólogo en seguridad y
+              Soy un orgulloso <strong>"Bellanita"</strong>, nacido y criado
+              entre los entrañables barrios Suárez y La Cumbre. Mi vocación como
+              auxiliar de enfermería ha sido mi dedicación principal,
+              extendiendo cuidados y alivio a lo largo de los años. A la par de
+              esta vocación, también me he forjado como tecnólogo en seguridad y
               salud en el trabajo, enfocado en garantizar el bienestar en todos
               los aspectos. Con 42 años de vida, gran parte de ellos han sido
               iluminados por mi compromiso pastoral, siendo una parte activa y
@@ -41,13 +48,24 @@ const Bio: React.FC = ({}) => {
               Mi historia es un testimonio de servicio, fe y entrega a la
               comunidad.
             </p>
+            <p className="mb-2 sm:text-2xl text-xl text-justify">
+              Soy el hijo mayor de una familia con tres hijos originaria de
+              Bello, Mi padre desempeñó como montador de telarex en Fabricato,
+              mientras que mi madre ha sido ama de casa, dedicándose siempre al
+              cuidado y atención de mis hermanos menores y de mi. Mis raíces
+              maternas se encuentran en el barrio Suárez, mientras que por parte
+              paterna, pertenecemos al barrio Andalucía. Llevo seis años de
+              matrimonio y he sido bendecido con una hija de 17 años. En nuestro
+              hogar, prevalece la unión familiar, basada en el apoyo mutuo que
+              nos brindamos unos a otros.
+            </p>
           </div>
 
           <div className="md:flex-1  mt-5 sm:order-1 -order-1">
             <div className="text-center">
               <img
                 src={avatar}
-                className="mx-auto mb-4 w-44 rounded-3xl shadow-lg bg-transparent shadow-neutral-600 dark:shadow-white"
+                className="mx-auto mb-4 w-44 rounded-3xl shadow-lg bg-transparent shadow-orange-600 dark:shadow-white"
                 alt="Avatar"
               />
               <h5 className="mb-2 lg:text-2xl font-bold text-xl text-semibold  leading-tight">
@@ -56,43 +74,39 @@ const Bio: React.FC = ({}) => {
               <p className="text-neutral-500 lg:text-1xl text-xl dark:text-neutral-400">
                 Concejal 2024-2027
               </p>
-              <div className="flex gap-4 pb-4 mt-3 content-center justify-center">
-                {/* <a
-                  className="hover:scale-110"
-                  target="_blank"
-                  href="https://www.linkedin.com/in/yeraldinne-sanabria/"
-                >
-                  <SiLinkedin size={20} />
-                </a> */}
-                <a
-                  target="_blank"
-                  href="https://github.com/Yeraldinnesan"
-                  className="hover:scale-110"
-                >
-                  <FaGithubSquare size={20} />
-                </a>
-                <Link className="hover:scale-110" to="/contact">
-                  <TfiEmail size={20} />
-                </Link>
-              </div>
+              <div className="flex items-center gap-4 sm:pb-3 p justify-center">
+              <a
+                className="hover:scale-110"
+                target="_blank"
+                href="https://www.instagram.com/almescare/"
+              >
+                <SiInstagram className="text-3xl" />
+              </a>
+              <a
+                target="_blank"
+                href="https://www.facebook.com/alexander.meneses1"
+                className="hover:scale-110"
+              >
+                <FaFacebook className="text-4xl" />
+              </a>
+            </div>
               <blockquote className="px-10 pt-5">
                 <h3
                   className="text-3xl font-bold"
                   style={{ fontFamily: "Cambria Math" }}
                 >
-                  POR UN BELLO NUEVO Y RENOVADO. 
+                  POR UN BELLO NUEVO Y RENOVADO.
                 </h3>
                 <div className="flex justify-center items-end">
                   <p className=" text-lg" style={{ fontFamily: "roboto" }}>
-                   "Soñar no sirve de nada si te olvidas de vivir" 
+                    "Soñar no sirve de nada si te olvidas de vivir"
                   </p>
-                  
                 </div>
                 <div className="flex justify-center items-end">
                   <p className=" text-lg" style={{ fontFamily: "roboto" }}>
-                  Albus Dumbledore - Harry Potter 
+                    Albus Dumbledore - Harry Potter
                   </p>
-                  </div>
+                </div>
               </blockquote>
             </div>
           </div>
