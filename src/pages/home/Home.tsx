@@ -79,7 +79,7 @@ const Home: React.FC = ({}) => {
                 <button className="btn lg:text-2xl text-white text-xl">Hablemos</button>
               </Link>
               <HashLink
-                to="#featured-work"
+                to="#propuestas"
                 className="sm:py-2 sm:px-4 py-2 px-2 border-2 border-[#ff7700d3] rounded-md sm:text-2xl text-xl shadow-lg hover:shadow-[#ff7700d3]  hover:border-[#ff7700d3] dark:border-neutral-50"
               >
                 propuestas
@@ -92,11 +92,11 @@ const Home: React.FC = ({}) => {
         </div>
       </div>
 
-      <div className="pt-12 ">
+      <div className="pt-12" id="propuestas">
         <Services />
       </div>
 
-      <div className="pt-12" id="featured-work">
+      <div className="pt-12">
         <FeatureProjects />
       </div>
     </div>

@@ -7,7 +7,6 @@ import { useState } from "react";
 
 const Accordion: React.FC<{}> = () => {
   const [open, setOpen] = useState<boolean[]>(servicesData.map(() => false));
-
   const toggleHandler = (index: number) => {
     setOpen((prevOpen) => {
       const newOpen = [...prevOpen];
@@ -26,10 +25,6 @@ const Accordion: React.FC<{}> = () => {
   return (
     <div className="flex  justify-center w-full py-10">
       <div className="flex flex-col lg:flex-row gap-10 items-center content-center my-3 py-3 rounded-lg  ">
-        <div>
-          <Lottie animationData={animation} loop={true} />
-        </div>
-
         <div>
           {servicesData?.map((el: any, i: any) => {
             return (

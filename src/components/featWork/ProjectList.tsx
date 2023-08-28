@@ -20,7 +20,7 @@ const ProjectList: React.FC<Props> = ({
 }) => {
   return (
     <Link to={link}>
-      <div className="relative justify-center  shadow-lg hover:shadow-neutral-600 hover:scale-105 ">
+      <div className="relative justify-center  shadow-lg hover:shadow-neutral-600 hover:scale-105 hover:text-[#ff7700d3]">
         {badge && (
           <span className="absolute text-lg -top-1  -right-1 inline-block whitespace-nowrap rounded-[0.27rem] bg-primary-100 px-[0.45em] pt-[0.25em] pb-[0.25em] text-center align-baseline text-[0.75em] font-bold leading-none text-primary-700">
             {badge}
@@ -34,11 +34,11 @@ const ProjectList: React.FC<Props> = ({
             alt={alt}
           />
 
-          <div className="flex items-center justify-between p-3 hover:text-fuchsia-600">
-            <h5 className="mb-1 text-lg font-medium hover:text-fuchsia-600 leading-tight text-neutral-800 dark:text-neutral-50">
+          <div className="flex items-center justify-between p-3 hover:text-[#ff7700d3]">
+            <h5 className="mb-1 text-lg font-medium leading-tight text-neutral-800 dark:text-neutral-50">
               {title}
             </h5>
-            <BsArrowRight className="text-sm hover:text-fuchsia-600" />
+            <BsArrowRight className="text-sm hover:text-[#ff7700d3]" />
           </div>
         </div>
 

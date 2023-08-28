@@ -223,62 +223,60 @@ const certificates = [
 
 const servicesData = [
   {
-    title: "🌟 Recuperación de instalaciones del polideportivo",
+    title: "⚽🏀🏐 Recuperación de instalaciones del polideportivo",
 
-    description:
-      `Como candidato al Concejo Municipal de Bello, uno de mis objetivos es revitalizar nuestro querido polideportivo y restaurar el orgullo de nuestra comunidad. Es inaceptable que nuestras instalaciones deportivas se encuentren en un estado de abandono, como se evidencia en los baños públicos descuidados, deteriorados y en condiciones insalubridad. Trabajaré incansablemente para obtener los recursos necesarios a nivel municipal, departamental y nacional, en colaboración con nuestra Diputada, para llevar a cabo una renovación completa que transforme el polideportivo en un vibrante centro comunitario. Al revitalizar este espacio, no solo generaremos empleo para los Bellanitas, sino que también atraeremos eventos significativos que impulsarán nuestra economía y fortalecerán nuestro tejido social.
+    description: `Como candidato al Concejo Municipal de Bello, uno de mis objetivos es revitalizar nuestro querido polideportivo y restaurar el orgullo de nuestra comunidad. Es inaceptable que nuestras instalaciones deportivas se encuentren en un estado de abandono, como se evidencia en los baños públicos descuidados, deteriorados y en condiciones insalubridad. Trabajaré incansablemente para obtener los recursos necesarios a nivel municipal, departamental y nacional, en colaboración con nuestra Diputada, para llevar a cabo una renovación completa que transforme el polideportivo en un vibrante centro comunitario. Al revitalizar este espacio, no solo generaremos empleo para los Bellanitas, sino que también atraeremos eventos significativos que impulsarán nuestra economía y fortalecerán nuestro tejido social.
 
       Mi visión es convertir nuestro polideportivo en un símbolo de unidad y prosperidad para Bellanitas. A través del deporte, la recreación y la participación comunitaria, podemos construir un futuro donde el orgullo y la vitalidad vuelvan a definir nuestra identidad local. Les invito a unirse a esta causa, a creer en la posibilidad del cambio y a confiar en mi compromiso de trabajar incansablemente por el bienestar de todos los ciudadanos de Bellanitas.
       `,
-      
   },
   {
-    title: "🌟 Back-end Development",
+    title: "🏬🏥 Fortaleciendo la Infraestructura de Salud",
 
     description:
-      "Scalable and secure back-end systems using languages like Python, Ruby, or Node.js. Designing efficient APIs and integrating them with databases and front-end applications.",
+      "Nuestra comunidad merece una infraestructura de salud de primer nivel. Esto implica la construcción y mejora de centros de salud locales, la actualización de equipos médicos obsoletos y la gestión eficaz de recursos a nivel departamental y nacional. Trabajemos juntos para elevar nuestro único hospital municipal al menos al nivel 2, garantizando un acceso óptimo y adecuado a la atención médica para todos nosotros. Esta propuesta se centra en mejorar nuestras instalaciones de salud para el bienestar de la comunidad.",
   },
   {
-    title: "🌟 Database Management",
+    title: "👨🏽‍⚕️👩🏻‍⚕️ Inversión en Personal Médico de Excelencia",
 
     description:
-      "Design, implementation, and management of databases using various technologies such as SQL, MongoDB, or Firebase. Creating data models, optimizing queries, and ensuring data consistency and security.",
+      "Sabemos que un sistema de atención médica sólido depende en gran medida de tener a los profesionales adecuados en su lugar. Es por eso que mi compromiso número uno es la contratación de médicos y especialistas altamente calificados, respaldados por una capacitación continua.",
   },
   {
-    title: "🌟 API Development",
+    title: "🩺 👨‍👩‍👦‍👦 Priorizando la Atención Preventiva",
 
     description:
-      "APIs that provide data to other applications or connect multiple systems. Implementing RESTful or GraphQL APIs, documenting them, and handling authentication and authorization.",
+      "Enfoquémonos en prevenir antes de curar. Esto significa implementar campañas educativas y llevar a cabo jornadas de salud en nuestras escuelas y comunidades locales. Juntos, podemos crear un entorno donde la prevención y la educación sean cruciales para el bienestar de todos. Esta propuesta se basa en la idea de que la atención médica comienza con el conocimiento y la prevención, y estamos comprometidos a trabajar juntos para lograrlo.",
   },
   {
-    title: "🌟 E-commerce development",
+    title: "📲🦾 Modernización para una Atención Eficiente",
 
     description:
-      " Build and manage online stores that help businesses sell their products and services online, from setting up a store to optimizing it for maximum sales.",
+      "Avanzar hacia la era digital es esencial para una atención médica eficiente. Proponemos la implementación de registros electrónicos y una plataforma en línea para citas médicas. Esto simplificará los procesos y mejorará el acceso a la atención médica, brindando un servicio más rápido y conveniente para todos. Nuestra visión es una atención médica moderna y eficaz que se adapte a las necesidades de nuestra comunidad. Esta propuesta se enfoca en utilizar la tecnología para mejorar la atención médica que todos merecemos.",
   },
   {
-    title: "🌟 SEO optimization",
+    title: "📚✋ Educación y Salud de la Mano",
 
     description:
-      " Improve a website's visibility and search engine ranking through keyword research, on-page optimization, and backlink building.",
+      "Fortaleceremos la colaboración entre el sector educativo y el de la salud mediante convenios con instituciones educativas locales y la creación de programas de pasantías. Esta sinergia beneficiará a ambas áreas y, en última instancia, a nuestra comunidad. Al conectar la educación y la salud, estamos asegurando una base sólida para un futuro más saludable y educado para todos. Esta propuesta se basa en la creencia de que la colaboración es clave para el progreso y la prosperidad de nuestra comunidad.",
   },
   {
-    title: "🌟 Branding",
+    title: "🤝🏘️ Construyendo Salud Juntos",
 
     description:
-      " Develop a brand identity that represents a business's values, personality, and goals, helping them stand out in a crowded marketplace.",
+      "Fomentaremos la participación activa de la comunidad mediante la creación de comités de salud en cada barrio y la organización de reuniones regulares. Creemos firmemente que la voz de la comunidad es esencial para dar forma a nuestras políticas de salud. Al trabajar juntos en comités de salud locales, podemos garantizar que nuestras necesidades y preocupaciones sean escuchadas y atendidas de manera efectiva. Esta propuesta se basa en la participación comunitaria como piedra angular para un sistema de salud que refleje las inquietudes de todos nosotros.",
   },
   {
-    title: "🌟 Social media management",
+    title: "⛪👥 Uniendo Esfuerzos para una Comunidad más Fuerte",
 
     description:
-      "help businesses manage their social media presence by creating engaging content, optimizing posts for maximum reach, and analyzing results to improve performance.",
+      "La colaboración entre la Iglesia Católica y la administración municipal en Bello es una asociación invaluable que ofrece una amplia gama de beneficios para nuestra comunidad. A través de esta colaboración, hemos visto apoyo social, fortalecimiento de la educación y la atención médica, cohesión comunitaria, preservación de nuestra rica herencia cultural y desarrollo de programas sociales esenciales. Además, esta alianza nos brinda la capacidad de responder eficazmente a crisis y fomenta el voluntariado, mejorando significativamente la calidad de vida de todos los residentes y abordando nuestros desafíos de manera conjunta. \n\n La clave de esta colaboración exitosa radica en la creación de un ambiente colaborativo donde la Iglesia, la administración municipal y nuestros jóvenes trabajen juntos. Juntos, identificaremos necesidades locales y ejecutaremos proyectos que beneficien tanto a la juventud como a la comunidad en general. Esta propuesta se basa en el poder de unir esfuerzos para construir una comunidad más fuerte y unida.",
   },
   {
-    title: "🌟 Web design",
+    title: "♻️💼 Generando Empleo Joven y Sostenible a Través del Reciclaje",
 
     description:
-      "Create beautiful, user-friendly websites that help businesses and individuals showcase their products and services online.",
+      "Proponemos la creación de un programa de generación de empleo en nuestro barrio, enfocado en el reciclaje y dirigido por jóvenes locales. Esta iniciativa establecerá una cooperativa o proyecto comunitario donde los jóvenes participarán en la recolección, clasificación y venta de materiales reciclables. Buscaremos financiamiento y capacitación, colaborando con el gobierno y actores locales. A medida que crezca, no solo generará empleo sostenible, sino que también contribuirá a mejorar nuestro entorno y tendrá un impacto positivo en el medio ambiente. \n\n Este es un paso crucial hacia el fortalecimiento de nuestra comunidad y un futuro más sostenible y próspero para todos.",
   },
 ];
 
