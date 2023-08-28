@@ -102,7 +102,7 @@ const Bio: React.FC = ({}) => {
                     "Soñar no sirve de nada si te olvidas de vivir"
                   </p>
                 </div>
-                <div className="flex justify-center items-end">
+                <div className="flex justify-center items-end ">
                   <p className=" text-lg" style={{ fontFamily: "roboto" }}>
                     Albus Dumbledore - Harry Potter
                   </p>
