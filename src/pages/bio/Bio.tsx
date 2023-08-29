@@ -78,7 +78,7 @@ const Bio: React.FC = ({}) => {
               <a
                 className="hover:scale-110"
                 target="_blank"
-                href="https://www.instagram.com/almescare/"
+                href="https://www.instagram.com/almescare/ "
               >
                 <SiInstagram className="text-3xl" />
               </a>
