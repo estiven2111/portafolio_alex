@@ -2,8 +2,12 @@ import React, { useState } from 'react'
 import "./css/voteMe.css"
 import subject from "../../assets/images/Subject-sin-fondo.png"
 
-const voteMe: React.FC = () => {
-    const [modalIsOpen, setmodalIsOpen] = useState(true)
+interface voteMeProps {
+    modalIsOpen: boolean;
+}
+
+const voteMe: React.FC<voteMeProps> = (props) => {
+    const { modalIsOpen } = props;
 
   return (
     <div className={`container-modal-voteMe ${modalIsOpen ? 'modal-open' : ''}`}>
@@ -14,7 +18,7 @@ const voteMe: React.FC = () => {
             <div className="desc">
                 <h4 className="vote">¿Votarias por mi?</h4>
                 <div className="btns">
-                    <button onClick={() => setmodalIsOpen(false)} type='button' className="btn-vote">Si</button>
+                    <button type='button' className="btn-vote">Si</button>
                     <button type='button' className="btn-vote">No</button>
                 </div>
             </div>

@@ -14,9 +14,25 @@ import Contact from "./pages/contact/Contact";
 import CalltoAction from "./components/CalltoAction";
 import ScrollToTop from "./components/ScrollToTop";
 import VoteMe from "./components/modals/voteMe";
+import { useState, useEffect } from "react";
 
 
 function App() {
+  const [modalIsOpen, setmodalIsOpen] = useState<boolean>(false);
+  const timeOpenModal = Math.floor(Math.random() * (50000-10000+1000) + 10000)
+  
+  useEffect(() => {
+    const Timer = setTimeout(() => {
+      setmodalIsOpen(true);
+    }, timeOpenModal);
+    console.log(timeOpenModal)
+  
+    return () => {
+      clearTimeout(Timer)
+    }
+  }, [])
+  
+
   return (
     <ThemeProvider>
       <div className="min-h-screen dark:bg-zinc-900 dark:text-neutral-50 bg-slate-w400 bg-neutral-200 transition-colors duration-500">
@@ -24,7 +40,7 @@ function App() {
           <ScrollToTop />
           <Navigation />
           <ModeToggle />
-          <VoteMe/>
+          <VoteMe modalIsOpen={modalIsOpen}/>
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/bio" element={<Bio />} />
