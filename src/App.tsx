@@ -13,6 +13,8 @@ import Games from "./pages/games/Games";
 import Contact from "./pages/contact/Contact";
 import CalltoAction from "./components/CalltoAction";
 import ScrollToTop from "./components/ScrollToTop";
+import VoteMe from "./components/modals/voteMe";
+
 
 function App() {
   return (
@@ -22,6 +24,7 @@ function App() {
           <ScrollToTop />
           <Navigation />
           <ModeToggle />
+          <VoteMe/>
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/bio" element={<Bio />} />

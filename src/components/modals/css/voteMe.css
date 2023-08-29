@@ -1,0 +1,89 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap");
+
+.container-modal-voteMe {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  visibility: hidden;
+  opacity: 0;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.781);
+  z-index: 1000;
+  transition: all ease-in 1s;
+}
+
+.modal-open {
+  visibility: visible;
+  opacity: 1;
+}
+
+.container-modal-voteMe .wrapper-modal {
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  background-color: #fff;
+  border-radius: 10px;
+  color: black;
+  box-shadow: 0 0 10px 10px #ff7700d3;
+  border: 2px solid black;
+  transform: translateY(-900px);
+  transition: all ease-in-out 1s;
+}
+
+.modal-open .wrapper-modal{
+    transform: translateY(0);
+  }
+
+.container-modal-voteMe .wrapper-modal .illustration {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.container-modal-voteMe .wrapper-modal .illustration img {
+  width: 250px;
+  border-bottom: 1px solid black;
+}
+
+.container-modal-voteMe .wrapper-modal .desc {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 0 20px 0;
+}
+
+.container-modal-voteMe .wrapper-modal .desc .vote {
+  font-size: 2rem;
+  text-align: center;
+  font-family: "Oswald", sans-serif;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+.container-modal-voteMe .wrapper-modal .desc .btns {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 60px;
+}
+.container-modal-voteMe .wrapper-modal .desc .btns .btn-vote {
+  border: 2px solid #ff7700d3;
+  padding: 5px 10px;
+  border-radius: 5px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.568);
+  box-shadow: 0 5px 10px rgba(0 0, 0, 0.568);
+  cursor: pointer;
+  transition: all ease-in 0.1s;
+}
+
+.container-modal-voteMe .wrapper-modal .desc .btns .btn-vote:hover {
+  box-shadow: 0 5px 10px 2px rgba(0, 0, 0, 0.568);
+  transform: scale(1.05);
+}
