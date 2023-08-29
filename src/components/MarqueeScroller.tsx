@@ -33,91 +33,91 @@ const MarqueeScroller: React.FC<{}> = () => {
     <section>
       <div className="text-center">
         <div className="m-10 pb-10">
-          <h1 className="font-bold text-4xl md:text-5xl ">My Stack</h1>
+          <h1 className="font-bold text-4xl md:text-5xl "></h1>
         </div>
         <div className="sm:mx-20 mx-8">
           <Marquee pauseOnHover direction="right" gradient={false}>
-            <div className="flex gap-4">
+            <div className="flex gap-4 items-center border-0">
               <div className="">
-                <img className="" src={javascript} alt="angular" />
+                <img className="w-40 h-36 rounded-md "  src={javascript} alt="angular" />
               </div>
               <div className="">
-                <img className="" src={angular} alt="angular" />
+                <img className="w-40 h-36 rounded-md"  src={angular} alt="angular" />
               </div>
               <div className="">
-                <img className="" src={mongo} alt="mongo" />
+                <img className="w-40 h-36 rounded-md"  src={mongo} alt="mongo" />
               </div>
               <div className="">
-                <img className="" src={redux} alt="redux" />
+                <img className="w-40 h-36 rounded-md"  src={redux} alt="redux" />
               </div>
               <div className="">
-                <img className="" src={node} alt="node" />
+                <img className="w-40 h-36 rounded-md"  src={node} alt="node" />
               </div>
               <div className="">
-                <img className="" src={postgre} alt="postgre" />
+                <img className="w-40 h-36 rounded-md"  src={postgre} alt="postgre" />
               </div>
               <div className=" ">
-                <img className="" src={django2} alt="django" />
+                <img className="w-40 h-36 rounded-md"  src={django2} alt="django" />
               </div>
               <div className="">
-                <img className="" src={react} alt="react" />
+                <img className="w-40 h-36 rounded-md"  src={react} alt="react" />
               </div>
               <div className="pt-5">
                 <img className="w-[150px] " src={next} alt="next" />
               </div>
               <div className=" ">
-                <img className="" src={python} alt="python" />
+                <img className="w-40 h-36 rounded-md"  src={python} alt="python" />
               </div>
               <div className=" ">
-                <img className="" src={npm} alt="npm" />
+                <img className="w-40 h-36 rounded-md"  src={npm} alt="npm" />
               </div>
               <div></div>
             </div>
           </Marquee>
 
           <Marquee pauseOnHover direction="left" gradient={false}>
-            <div className="flex gap-4">
+            <div className="flex gap-4 items-center">
               <div className="">
-                <img className="" src={html} alt="html" />
+                <img className="w-40 h-36 rounded-md"  src={html} alt="html" />
               </div>
               <div className="">
-                <img className="" src={figma} alt="figma" />
+                <img className="w-40 " src={figma} alt="figma" />
               </div>
               <div className="">
-                <img className="" src={illustrator} alt="illustrator" />
+                <img className="w-40 h-36 rounded-md"  src={illustrator} alt="illustrator" />
               </div>
               <div className="">
-                <img className="" src={photoshop} alt="photoshop" />
+                <img className="w-40 h-36 rounded-md"  src={photoshop} alt="photoshop" />
               </div>
               <div className=" ">
-                <img className="" src={typescript} alt="typescript" />
+                <img className="w-40 h-36 rounded-md"  src={typescript} alt="typescript" />
               </div>
               <div className="">
-                <img className="" src={express} alt="express" />
+                <img className="w-40 h-36 rounded-md"  src={express} alt="express" />
               </div>
               <div className="">
-                <img className="" src={redis} alt="redis" />
+                <img className="w-40 h-36 rounded-md"  src={redis} alt="redis" />
               </div>
               <div className="">
-                <img className="" src={graphql} alt="graphql" />
+                <img className="w-40 h-36 rounded-md"  src={graphql} alt="graphql" />
               </div>
               <div className="">
-                <img className="" src={apollo} alt="apollo" />
+                <img className="w-40 h-36 rounded-md"  src={apollo} alt="apollo" />
               </div>
               <div className=" ">
-                <img className="" src={css} alt="css" />
+                <img className="w-40 h-36 rounded-md" src={css} alt="css" />
               </div>
               <div className="">
-                <img className="" src={git} alt="git" />
+                <img className="w-40 h-36 rounded-md"  src={git} alt="git" />
               </div>
               <div className="">
-                <img className="" src={tailwind} alt="tailwind" />
+                <img className="w-40 h-36 rounded-md"  src={tailwind} alt="tailwind" />
               </div>
               <div className="">
-                <img className="" src={bootstrap} alt="bootstrap" />
+                <img className="w-40 h-36 rounded-md"  src={bootstrap} alt="bootstrap" />
               </div>
               <div className="">
-                <img className="" src={sass} alt="sass" />
+                <img className="w-40 h-36 rounded-md"  src={sass} alt="sass" />
               </div>
             </div>
           </Marquee>
