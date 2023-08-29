@@ -12,8 +12,8 @@ const Certificates: React.FC<{}> = () => {
         </h1>
       </div>
       <div className="grid sm:grid-cols-1 gap-6  ">
-        {certificates.map((el) => (
-          <div className="py-5 p-9 rounded-lg hover:shadow-yellow-600 dark:hover:shadow-yellow-600 dark:shadow-neutral-50 shadow-md   hover:scale-105 ">
+        {certificates.map((el, i) => (
+          <div key={i} className="py-5 p-9 rounded-lg hover:shadow-yellow-600 dark:hover:shadow-yellow-600 dark:shadow-neutral-50 shadow-md   hover:scale-105 ">
             <div className=" text-center text-xl">
               <div>
                 <h2 className=" text-center dark:text-white-400 text-4xl">
