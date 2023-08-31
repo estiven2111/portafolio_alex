@@ -18,7 +18,7 @@ const Services: React.FC = () => {
       <section>
         <div className=" ">
           <div className=" text-center py-45">
-            <h2 className="  font-bold  text-4xl md:text-5xl">Mis compromisos con los Bellanitas</h2>
+            <h2 className="  font-bold  text-4xl md:text-5xl ">Mis compromisos con los Bellanitas</h2>
           </div>
           <Accordion />
         </div>
