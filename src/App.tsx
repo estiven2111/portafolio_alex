@@ -40,7 +40,7 @@ function App() {
           <ScrollToTop />
           <Navigation />
           <ModeToggle />
-          <VoteMe modalIsOpen={modalIsOpen}/>
+          {/* <VoteMe modalIsOpen={modalIsOpen}/> */}
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/bio" element={<Bio />} />
