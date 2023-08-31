@@ -44,10 +44,10 @@ const Navigation: React.FC<Props> = () => {
         {/*navigation links on large screens */}
         <div className="hidden sm:flex sm:flex-col lg:text-2xl text-xl">
           <Link to="/">
-            <SideBarIcon icon={<BsHouseDoorFill size={29} />} text={"Quien es alexander"} />
+            <SideBarIcon icon={<BsHouseDoorFill size={29} />} text={"Inicio"} />
           </Link>
           <Link to="/bio">
-            <SideBarIcon icon={<ImProfile size={29} />} text={"Biografia"} />
+            <SideBarIcon icon={<ImProfile size={29} />} text={"Quien es alexander"} />
           </Link>
           {/* <Link to="/portfolio">
             <SideBarIcon icon={<MdWork size={29} />} text={"Portfolio"} />
@@ -73,13 +73,13 @@ const Navigation: React.FC<Props> = () => {
             className="p-4 hover:text-[#FF7600]"
             onClick={() => setShowNavigation(false)}
           >
-            <Link to="/">Quien es alexander</Link>
+            <Link to="/">Inicio</Link>
           </div>
           <div
             className="p-4 hover:text-[#FF7600]"
             onClick={() => setShowNavigation(false)}
           >
-            <Link to="/bio">Biografia</Link>
+            <Link to="/bio">Quien es alexander</Link>
           </div>
           {/* <div
             className="p-4 hover:text-[#FF7600]"
