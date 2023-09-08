@@ -53,11 +53,29 @@
 }
 
 .container-modal-voteMe .wrapper-modal .desc {
+  width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 10px;
   padding: 10px 0 20px 0;
+}
+
+.container-modal-voteMe .wrapper-modal .desc .simpleVote{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+/* ESCONDER Y MOSTRAR SECCIONES DEL MODAL */
+.container-modal-voteMe .wrapper-modal .desc .hidden{
+  display: none !important;
+}
+
+.container-modal-voteMe .wrapper-modal .desc .show{
+  display: flex !important;
 }
 
 .container-modal-voteMe .wrapper-modal .desc .vote {
@@ -86,4 +104,55 @@
 .container-modal-voteMe .wrapper-modal .desc .btns .btn-vote:hover {
   box-shadow: 0 5px 10px 2px rgba(0, 0, 0, 0.568);
   transform: scale(1.05);
+  background-color: #ff7700d3;
+  color: white;
+  border: 2px solid black;
 }
+
+.container-modal-voteMe .wrapper-modal .desc .simpleVote .btn-fields{
+  margin: 20px 0 0;
+  padding: 10px;
+  text-align: center;
+  transition: all .4s ease-in-out;
+  letter-spacing: 1px;
+  font-size: 16px;
+}
+
+.container-modal-voteMe .wrapper-modal .desc .simpleVote .btn-fields:hover{
+  box-shadow: 0 0 10px 2px rgb(0, 0, 0, 0.6);
+  border-radius: 9px;
+  color: #ff7700d3;
+}
+
+.container-modal-voteMe .wrapper-modal .desc .container-personal-data{
+  width: 100%;
+  display: none;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+
+.container-modal-voteMe .wrapper-modal .desc .container-personal-data form{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 9px;
+}
+
+.container-modal-voteMe .wrapper-modal .desc .container-personal-data form input{
+  width: 80%;
+  height: 40px;
+  padding: 5px 10px;
+  border: 2px solid #ff7700d3;
+  border-radius: 5px;
+  outline: none;
+  transition: all .3s ease-in-out;
+}
+
+.container-modal-voteMe .wrapper-modal .desc .container-personal-data form input:focus{
+  transform: scale(1.03);
+  box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.568);
+}
+
